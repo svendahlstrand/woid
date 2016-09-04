@@ -6,7 +6,9 @@ body {
 #images {
   line-height: 0;
   column-count: 6;
+  -moz-column-count: 6;
   column-gap: 0;
+  -moz-column-gap: 0;
 }
 
 img {
