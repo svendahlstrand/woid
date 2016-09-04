@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  background-color: #222;
+}
+
+#images {
+  line-height: 0;
+  column-count: 6;
+  column-gap: 0;
+}
+
+img {
+  width: 100%;
+}
