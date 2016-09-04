@@ -1,6 +1,7 @@
 require 'json'
 require 'sinatra'
 require 'sinatra-index'
+require 'sinatra/reloader' if development?
 
 register Sinatra::Index
 use_static_index 'index.html'
